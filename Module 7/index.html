@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 7</title>
+</head>
+<body>
+
+    <h1>Forms</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="FirstName">FirstName</label> <br>
+        <input type="text" id="FirstName" name="FirstName" value="Granit" disabled> <br>
+        <label for="LastName">LastName</label> <br>
+        <input type="text" id="LastName" name="LastName" readonly> <br>
+        <label for="email">Email :</label> <br>
+        <input type="email" id="email" name="email" required> <br>
+        <label for="password">password : </label> <br>
+        <input type="password" id="password" name="password" size="40"> <br> <br>
+
+        <label>Gender : </label> <br>
+        <input type="radio" id="male" name="gender" value="gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="gender">
+        <label for="female">Female</label><br>
+
+        <label >Hobbies :</label> <br>
+        <input type="checkbox" id="gaming" name="gaming" value="Gaming">
+        <label for="gaming" > Gaming </label> <br>
+        <input type="checkbox" id="football" name="football" value="football">
+        <label for="football" > Football </label> <br>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming" > Swimming </label> <br>
+
+        <select id="pet" name="pet">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Parrot">Parrot</option>
+        </select> <br> <br>
+
+        <textarea name="message" id="10" cols="20"minlength="10" maxlength="50"></textarea> <br>
+
+        <input type="submit" name="submit" id="submit">
+    </fieldset>
+    
+
+    </form>
+    <!---Semantics-->
+    <article>
+        <h1>HTML</h1>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dolorem quasi voluptatibus facilis tempore!
+             Possimus ad amet, maiores,
+             nostrum aperiam blanditiis optio distinctio molestias doloremque aut tempora, rerum debitis. Aut?</p>
+
+    </article>
+
+    <details>
+        <summary>Digital School</summary>
+        <p>Digital School is an institutuin which offers programming courses</p>
+    </details>
+
+    <figure>
+        <img src="/FullStackWithErjon/Module 4/Images/code.jpg" alt="HTML" width="250" height="250">
+        <figcaption>Fig.1 - HTML Code </figcaption>
+    </figure>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>This course will teach you how to create web pages using HTML,CSS,Javascript</p>
+    </section>
+
+    
+</body>
+</html>
