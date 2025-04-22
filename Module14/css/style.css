@@ -1,0 +1,26 @@
+article p {
+    background: blue;
+    color:white;
+    padding: 20px;
+}
+
+article > p{
+    background: red;
+}
+
+article ~ p {
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+
+
+article + p{
+    background:orange;
+}
+
+
+a:hover{
+    color: purple;
+}
